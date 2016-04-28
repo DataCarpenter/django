@@ -1,7 +1,6 @@
-{
-  "posts": [
-    "elso_post",
-    "masodik_post",
-    "harmadik_post"
+ [
+    {"post":"elso_post", "cim":"elso cim", "content":"elso kontent"},
+    {"post":"masodik_post", "cim":"masodik cim", "content":"masodik kontent"},
+    {"post":"harmadik_post", "cim":"harmadik cim", "content":"harmadik kontent"}
   ]
-}
+

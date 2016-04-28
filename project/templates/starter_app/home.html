@@ -5,7 +5,7 @@
     <h1>Hi Django!</h1>
     <ul>
         {% for message in messages %}
-            <li><p>{{ message }}</p></li>
+            <li><a href='/{{ message }}'>{{ message }}</a></li>
         {% endfor %}
 
 {% endblock %}
