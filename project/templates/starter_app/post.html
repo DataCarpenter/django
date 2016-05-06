@@ -1,16 +1,16 @@
 {% extends 'base.html' %}
 
 {% block body_block %}
-
-    <h1>Hi one post</h1>
+    <h1>One post</h1>
     <ul>
-
-            <li><h3>cim</h3>
-            {{cim}}
+            <li><h3>{{post.title}}</h3>
             </li>
-            <li><h3>contetn</h3>
-            {{content}}
+            <li><h4>{{post.date}}</h4>
+            {{post.content}}
             </li>
+{% endblock %}
 
 
+{% block side_block %}
+  {% include 'menu.html'%}
 {% endblock %}

@@ -1,6 +1,23 @@
  [
-    {"post":"elso_post", "cim":"elso cim", "content":"elso kontent"},
-    {"post":"masodik_post", "cim":"masodik cim", "content":"masodik kontent"},
-    {"post":"harmadik_post", "cim":"harmadik cim", "content":"harmadik kontent"}
+    {
+"slug":"egy",
+ "title":"elso cim",
+"date":"2001-01-01" , 
+"content":"elso kontent A márdás mégis a heni, a melmelő hunya tegelye lett, s mintha e mögött a hunya mögött még ma is valamiféle mezető kérő zacskázna. Nem becslő aztán, ha kunkozás idaborgára sokak számára a dozat hitrek kolgásával kenyszenő. A gépteségben most tizálta be lárságát a horola, s most lapcsonál egy fonlan záns matkantás hagyarájába. Bűnök fölött, mint kördő csonda, a talk kémlő."
+},
+{
+"slug":"harom", 
+"title":"harmadik cim", 
+"date":"2003-01-01",
+"content":"harmadik kontent A mengeték talmas bakák reserőjében a talás teregi be az iség, a jogás taktérának fesztását a morvas mozta i aránságok (szerecs ok) és a tücskök között. A talás tarkjával és a mozta i szerecs ok uszásával (egyen, közés) lehetővé"
+},
+
+    {
+"slug":"ketto", 
+"title":"masodik cim", 
+"date":"2002-01-01",
+"content":"masodik kontent Ha haság hüvezi a salékot, akkor annak fizető és tatlan dikáit is gazmusba mászkolja. A kénetéz zsamantat vagy piszték tösíti a szirokát, hogy tódzjon, s popált készisztjen magának. Ha pedig ő nem boncignál ki a nyalajnból, majd orgolnak az öltségei. Ennek az ittas édségnek egyszer és prek kankábot kell billetnie."
+}
+    
   ]
 

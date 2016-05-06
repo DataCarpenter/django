@@ -3,15 +3,26 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Starter</title>
-    <link rel="stylesheet" href="/static/css/stylesheet.css">
+    <title>Django projekt</title>
+    <link rel="stylesheet" href = "/static/css/stylesheet.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+          integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+          crossorigin="anonymous">
 </head>
 
 <body>
-    <div class="wrapper">
-        {% block body_block %}{% endblock %}
-    </div>
     {% block scripts %}{% endblock %}
-</body>
 
+<div class="container-fluid" >
+    <div class="row">
+        <div class="col-md-3", style="background-color: lightblue">
+                {% block side_block %}
+                {%endblock%}
+        </div>
+        <div class="col-md-5">
+                {% block body_block %}
+                {% endblock %}
+    </div>
+</div>
+</body>
 </html>
