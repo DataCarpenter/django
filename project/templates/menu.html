@@ -7,11 +7,13 @@
 {% endif %}
 
 {% for post_detail in menu %}
-        {%if actual_slug == post_detail.slug %}
-            <li><b><a href='/{{ post_detail.slug }}'> {{ post_detail.title }} </a></b></li>
-        {% else %}
-            <li><a href='/{{ post_detail.slug }}'> {{ post_detail.title }}</a></li>
-        {% endif %}
+    <li class=
+        {% if actual_slug == post_detail.slug %}
+            "bld"
+        {% endif %}>
+    <a href="{% url 'onepost' post_detail.slug %}"> {{ post_detail.title }} </a> </li>
+
+
    {% endfor %}
 
 

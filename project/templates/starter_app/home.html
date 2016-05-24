@@ -4,24 +4,27 @@
     <h1>My django blog</h1>
     <ul>
         {% for post_detail in message_details %}
-            <div class="panel panel-default">
+            <li class="panel panel-default">
                   <div class="panel-heading">
-                  <h3 class="panel-title"> <a href='/{{ post_detail.slug }}'>{{ post_detail.title }}</a> </h3>
+                      <h3 class="panel-title">
+                          <a href='/{{ post_detail.slug }}'>{{ post_detail.title }}</a>
+                      </h3>
                   </div>
                   <div class="panel-body">
-                   {{ post_detail.date }} <br>
-                  {{post_detail.content}}
+                      {{ post_detail.date }}
+                      <br>
+                      {{post_detail.content}}
                   </div>
-                  <div class="panel-footer"> <a href='/{{ post_detail.slug }}'>Read more...</a>
+                  <div class="panel-footer">
+                      <a href='/{{ post_detail.slug }}'>Read more...</a>
                   </div>
-                </div>
             <br>
-
+            </li>
 
         {% endfor %}
-
+    </ul>
 {% endblock %}
 
 {% block side_block %}
-  {% include 'menu.html'%}
+    {% include 'menu.html'%}
 {% endblock %}
